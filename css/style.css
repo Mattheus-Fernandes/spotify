@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    background-color: black;
+    padding: 19px 105px;
+}
+
+.header .logo_spotify {
+    width: 127px;
+}
+
+.header .navbar ul {
+    display: flex;
+}
+
+
+.header .navbar ul li a {
+    color: rgb(255 255 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 19px;
+}
+
+.header .navbar ul li a:hover {
+    color: #1ed760;
+}
+
+.header .navbar ul .pipe::before {
+    content: "|";
+    color: rgb(255 255 255);
+    padding: 15px;
+}
+
+.header .navbar ul li a.a_style {
+    color: #d9dadc;
+}
+
