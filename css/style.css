@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+.container_home {
+    position: relative;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -45,3 +49,49 @@
     color: #d9dadc;
 }
 
+
+/****** 
+CONTENT 
+*******/
+
+.content {
+    height: 175%;
+    background-color: #2941ab;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    min-height: 846px; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #1ed760;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 890px;
+    font-size: 152px;
+    letter-spacing: -10px;
+}
+
+.phrase {
+    color: #1ed760;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #1ed760;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 28px;
+    border-radius: 22px;
+    color: #2941ab;
+}
